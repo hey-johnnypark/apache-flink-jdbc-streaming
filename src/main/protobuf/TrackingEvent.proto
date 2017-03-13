@@ -1,0 +1,12 @@
+syntax = "proto3";
+option java_outer_classname = "Protos";
+option java_package = "io.jp";
+
+
+message TrackingEvent {
+  // UUID of the event
+  string id = 1;
+
+  // Body of the message
+  string message = 2;
+}

@@ -1,0 +1,3 @@
+metrics.reporters: jmx_reporter
+metrics.reporter.jmx_reporter.class: org.apache.flink.metrics.jmx.JMXReporter
+metrics.reporter.jmx_reporter.port: 9020
