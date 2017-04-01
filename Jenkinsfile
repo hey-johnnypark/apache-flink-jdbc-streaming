@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'ls -l'
+        build 'compile'
       }
     }
   }
